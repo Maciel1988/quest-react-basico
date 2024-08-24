@@ -1,0 +1,14 @@
+h1 {
+    font-size: 2rem;
+    transition: 0.2s all ease-in;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+p {
+    color: #d11507 ;
+    font-weight: 500;
+    font-size: 2rem;
+}

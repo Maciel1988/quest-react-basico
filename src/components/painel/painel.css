@@ -1,0 +1,19 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.image {
+    border-radius: 5%;
+    transition: 0.2s all ease-in;
+}
+
+.image:hover {
+    transform: scale(1.1);
+    filter:  grayscale(1.1);
+}

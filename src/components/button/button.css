@@ -1,0 +1,19 @@
+button {
+    border: none;
+}
+.btn {
+    color: #edf2f4;
+    font-size: 1rem;
+    background-color: #b81414 ;
+    padding: 1.5rem;
+    border-radius: 8%;
+    border: 1px solid black;
+    transition: 0.2s all ease-in;
+    margin: 1rem;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #f59a9a;
+    color: red;
+}
